@@ -171,6 +171,9 @@ public class MusicOrganizer
         }
     }
     
+    /**
+     * Plays a random track in the playlist.
+     */
     public void playRandomTrack(){
         Random rand = new Random(); 
         if (tracks.size() > 0) 
