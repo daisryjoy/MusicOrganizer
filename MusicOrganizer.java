@@ -161,6 +161,10 @@ public class MusicOrganizer
         return valid;
     }
     
+    /**
+     * Reads the library 
+     * @param folderName reads the folderName as a string
+     */
     private void readLibrary(String folderName)
     {
         ArrayList<Track> tempTracks = reader.readTracks(folderName, ".mp3");
@@ -171,8 +175,9 @@ public class MusicOrganizer
         }
     }
     
-    /*
+    /**
      * Play all songs in playlist once in random order.
+     * 
      */
     public void randomPlayPlaylist(){
        
